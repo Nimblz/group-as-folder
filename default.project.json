@@ -1,0 +1,21 @@
+{
+  "name": "group-as-folder",
+  "tree": {
+    "$className": "DataModel",
+    "ServerStorage": {
+      "$className": "ServerStorage",
+      "plugin": {
+        "$path": "src"
+      }
+    },
+    "HttpService": {
+      "$className": "HttpService",
+      "$properties": {
+        "HttpEnabled": {
+          "Type": "Bool",
+          "Value": true
+        }
+      }
+    }
+  }
+}
