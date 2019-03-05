@@ -1,5 +1,4 @@
--- container-swap
--- swap models into folders, and folders into models
+-- group-as-folder
 
 -- dependant services
 local Selection = game:GetService("Selection")
